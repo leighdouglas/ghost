@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:id="@+id/add_contact"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:minWidth="300dp"
+    tools:context=".AddContactDiagFrag"
+
+    >
+
+    <TextView
+        android:id="@+id/excuse_name"
+        android:text="Excuse Name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/add_excuse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:imeOptions="actionDone" />
+
+    <TextView
+        android:id="@+id/contact_name"
+        android:text="Contact Name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/add_contact_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:imeOptions="actionDone" />
+
+    <TextView
+        android:id="@+id/text_message"
+        android:text="Enter text message"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/add_text_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:imeOptions="actionDone" />
+
+</LinearLayout>
